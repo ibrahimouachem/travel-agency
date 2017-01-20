@@ -1,0 +1,128 @@
+/*!
+ * Start Bootstrap - Portfolio Item (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+h1{
+    font-family: 'crete Round', cursive;
+    color: #444;
+    text-align: center;
+}
+h3{
+   font-family: 'crete Round', cursive;
+    color: #444;
+    text-align: center; 
+}
+p{
+   text-align: center;  
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+.navbar-logo{
+    font-family: 'crete Round', cursive;
+    font-size: 45px;
+    color: #444
+    }
+.orange{
+	color: orange;
+}
+#main-image h2{
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 150px 0 40px 0;
+    margin-bottom: 20px;
+}
+
+#reservation{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#reservation label{
+    margin-right: 10px;
+}
+#reservation button{
+    margin: 20px auto;
+    float: right;
+}
+#contact{
+    padding: 60px 0;
+    text-align: center
+}
+#contact h3{
+    text-transform: uppercase;
+    margin: 0 auto 20px auto;
+    border-bottom: 1px solid turquoise;
+    padding-bottom: 20px:
+}
+.email{
+    color: #337AB7;
+}
+form{
+    margin: 60px 0 20px 0;
+    }
+label{
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+    color: #777;
+}
+input[type="text"]{
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 20px;
+    border: 2px solid #ddd;
+    border-radius: 3px
+}
+.fa-twitter {
+    color: #fff;
+    background-color: #5DAED5;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+.fa-facebook {
+    color: #fff;
+    font-size: 16px;
+    background-color: #4470CF;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+.fa-linkedin{
+    color: #fff;
+    background-color: #5DAED5;
+    padding: 10px;
+    border-radius: 25%;
+    margin: 0 5px;
+}
+.fa-google-plus{
+    color: #fff;
+    background-color: #DC4C41;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+/*footer*/
+footer{
+    height: 260px;
+    background-color: #444
+}
+footer h1{
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+    font-family: 'crete Round', cursive;
+}
+.copyright{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    color: #777;
+}

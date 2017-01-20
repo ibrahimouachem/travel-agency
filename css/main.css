@@ -1,0 +1,347 @@
+/*GENERAL*/
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   font-family: Arial, sans-serif;
+   font-size: 15px
+}
+/*on peut donner les meme caractaires avec:(h1 h2 h3 h4 {meme color})*/
+.navbar-logo{
+    font-family: 'crete Round', cursive;
+    font-size: 45px;
+    color: #444
+    }
+.navbar{
+    background: #152B39;
+}
+h1{
+    font-family: 'crete Round', cursive;
+    font-size: 45px;
+    color: #444;
+}
+h2{
+    color: #fff;
+    font-size: 55px
+}
+h3{
+    font-size: 30px;
+    color: #444
+}
+h4{
+   font-size: 24px;
+    color: #444;
+}
+h5{
+    font-family: 'crete Round', cursive;
+    font-size: 24px;
+    color: #444;
+}
+p{
+    line-height: 20px;
+    color: #777;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:#444;
+}
+.wrapper
+{
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.orange{
+    color:orange
+}
+.clear{
+    clear: both
+}
+small{
+    font-size: 13px;
+    font-style: italic;
+}
+
+
+/*HADER*/
+header{
+    height: 120px;
+}
+
+header nav{
+    margin-top: 50px auto;
+}
+/*main image*/
+
+
+#main-image h2{
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 150px 0 40px 0;
+    margin-bottom: 20px;
+}
+
+.button-1{
+    width: 120px;
+    display:block;
+    height: 50px;
+    background: orange;
+    color:white;
+    font-size: 20px;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 3px;
+    
+}
+
+.button-1:hover{
+    background: blue
+}
+/*stup*/
+#stups .wrapper{
+
+    text-align: center;
+    margin: 20px auto;
+}
+#stups .one{
+    padding-top: 140px;
+}
+
+
+
+/*possibilities*/
+
+#possibilities{
+    background-color:#efefef;
+    padding: 60px 0;
+}
+#possibilities article{
+    width: 450px;
+    height: 270px;
+    float: left;
+    border-radius: 10px;
+}
+#possibilities article:first-child
+{
+    margin-right: 20px;
+}
+.overlay{
+    background: rgba(255,255,255,0.75);
+    height: 270px;
+    width: 190px;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+}
+article h4{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center
+}
+#possibilities p{
+    text-align: center;
+    margin-bottom: 20px
+}
+.button-2{
+    color: #fff;
+    background-color: orange;
+    padding: 6px 20px;
+    border-radius: 3px;
+}
+.button-2:hover{
+    color: white;
+    background-color: blue;
+}
+
+/*contact*/
+#contact{
+    padding: 60px 0;
+    text-align: center
+}
+#contact h3{
+    text-transform: uppercase;
+    margin: 0 auto 20px auto;
+    border-bottom: 1px solid turquoise;
+    padding-bottom: 20px:
+}
+.email{
+    color: #337AB7;
+}
+form{
+    margin: 60px 0 20px 0;
+    }
+label{
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+    color: #777;
+}
+input[type="text"]{
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 20px;
+    border: 2px solid #ddd;
+    border-radius: 3px
+}
+.fa-twitter {
+    color: #fff;
+    background-color: #5DAED5;
+    padding: 10px;
+    border-radius: 40%;
+    margin: 0 5px;
+}
+.fa-facebook {
+    color: #fff;
+    font-size: 16px;
+    background-color: #4470CF;
+    padding: 10px;
+    border-radius: 40%;
+    margin: 0 5px;
+}
+.fa-linkedin{
+    color: #fff;
+    background-color: #5DAED5;
+    padding: 10px;
+    border-radius: 25%;
+    margin: 0 5px;
+}
+.fa-google-plus{
+    color: #fff;
+    background-color: #DC4C41;
+    padding: 10px;
+    border-radius: 40%;
+    margin: 0 5px;
+}
+
+/*footer*/
+footer{
+    height: 260px;
+    background-color: #444
+}
+footer h1{
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+}
+.copyright{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    color: #777;
+}
+/*=====MEDIA QUERIE====*/
+
+@media screen and (max-width: 1030px){
+    h2{
+        font-size: 30px;
+    }
+    .button-1{
+        width: 100px;
+        height: 30px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    
+}
+@media screen and (max-width: 1200px){
+    .navbar-logo{
+        font-size: 40px;
+        text-decoration: none;
+    }
+    .navbar-logo:hover{
+        text-decoration: none;
+        color: #444;
+    }
+    nav{
+        z-index: 1;
+    }
+}
+@media screen and (max-width: 995px){
+    #stups img{
+        width: 50px;
+        height: 50px;
+    }
+    #dLabel{
+        width: 80px;
+        height: 40px;
+        font-size: 12px;
+    }
+    #stups .btn-default{
+        width: 80px;
+        height: 40px;
+        font-size: 12px;
+    }
+    #stups .one p{
+        font-size: 14px;
+    }
+    #possibilities article{
+        width: 350px;
+        height: 230px;
+    }
+    #possibilities article:first-child{
+        margin: 5px 0 0 0
+    }
+
+    article h4{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    text-align: center;
+    }
+    #possibilities p{
+    text-align: center;
+    margin-bottom: 5px;
+    }
+    .overlay{
+    height: 230px;
+    width: 190px;
+    }
+
+}
+@media screen and (max-width: 570px){
+    .navbar-logo{
+        font-size: 35px;
+    }
+    #main-image h2{
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+   
+}
+@media screen and (max-width: 510px){
+    .navbar-logo{
+        font-size: 30px;
+    }
+    #main-image h2{
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+    .button-1{
+        width: 80px;
+        height: 20px;
+        font-size: 10px;
+        line-height: 20px;
+    }
+}
+@media screen and (max-width: 460px){
+    #main-image h2{
+        font-size: 10px;
+        padding-bottom: 5px;
+    }
+}
+@media screen and (max-width: 400px){
+     #possibilities article{
+        background-image: none;
+    }
+}
